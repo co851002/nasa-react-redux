@@ -7,6 +7,7 @@ const AstronomyCard = (props) => {
   return (
     <div className="astronomy-card">
 
+      <h6 className="astronomy-heading">Astronomy Picture Of The Day App with the NASA API and React + Redux</h6>
       <h6 className="astronomy-title">{title}</h6>
 
       <a href={hdurl} className="astronomy-image-wrapper">
